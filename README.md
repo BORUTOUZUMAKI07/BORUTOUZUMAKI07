@@ -3,7 +3,7 @@
 <!-- ========================================================= -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/main/assets/sriram_dynamic_hero_v3_slow.gif?v=1" width="100%" alt="Sriram cinematic dynamic hero">
+  <img src="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/main/assets/sriram_dynamic_hero_v3_slow_11frames.gif?v=11" width="100%" alt="Sriram cinematic dynamic hero">
 </p>
 
 
