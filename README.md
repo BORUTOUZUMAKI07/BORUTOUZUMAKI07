@@ -1,19 +1,22 @@
-<!-- Animated TBV-inspired hero -->
+<!-- TBV-inspired animated developer profile -->
 <p align="center">
-  <img src="./assets/tbv-boruto-banner.svg" alt="TBV-inspired animated developer banner" width="100%"/>
+  <img src="./assets/tbv-boruto-banner.svg" alt="BORUTO Two Blue Vortex inspired animated developer banner" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/172597480?v=4" width="120" alt="Profile picture"/><br/><br/>
+  <img src="https://avatars.githubusercontent.com/u/172597480?v=4" width="88" height="88" style="border-radius:50%" alt="Profile picture"/>
+  &nbsp;&nbsp;
   <img src="https://komarev.com/ghpvc/?username=BORUTOUZUMAKI07&style=for-the-badge&color=1f6feb" alt="Profile views"/>
 </p>
 
-<h1 align="center">Hi, I'm Sriram 👋</h1>
-
-<p align="center"><b>Full-Stack Developer • AI/LLM Engineer • AI Systems Builder</b></p>
+<h1 align="center">Sriram Achalla</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=900&color=39C8FF&center=true&vCenter=true&width=850&lines=Building+production-ready+AI+applications;Full-Stack+%C3%97+AI%2FLLM;RAG+%7C+Agentic+AI+%7C+LangGraph;MLOps+%7C+LLMOps+%7C+Observability;Discipline+%C3%97+Build+%C3%97+Evolve" alt="Typing animation"/>
+  <b>Full-Stack Developer • AI/LLM Engineer • AI Systems Builder</b>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=39C8FF&center=true&vCenter=true&width=820&lines=Building+production-ready+AI+applications;Full-Stack+%C3%97+AI%2FLLM;RAG+%7C+Agentic+AI+%7C+LangGraph;MLOps+%7C+LLMOps+%7C+Observability;Discipline+%C3%97+Build+%C3%97+Evolve" alt="Typing animation"/>
 </p>
 
 ---
