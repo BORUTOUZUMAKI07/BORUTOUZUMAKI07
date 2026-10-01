@@ -98,12 +98,26 @@ I like building systems that go beyond demos: modern frontends, production APIs,
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=plastic&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=plastic&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=plastic&logo=anthropic&logoColor=white)
+![A2A](https://img.shields.io/badge/A2A-4B6BFB?style=plastic&logo=google&logoColor=white)
+![FastMCP](https://img.shields.io/badge/FastMCP-111827?style=plastic&logo=python&logoColor=white)
+![DeepAgents](https://img.shields.io/badge/DeepAgents-111827?style=plastic&logo=python&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=plastic&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=plastic&logo=PyTorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=plastic&logo=opencv&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-D11217?style=plastic&logo=qdrant&logoColor=white)
+
+<!-- ==================== AGENT PROTOCOLS / TOOLING ==================== -->
+
+### 🔌 Agent Protocols / AI Infrastructure
+
+![MCP](https://img.shields.io/badge/MCP-000000?style=plastic&logo=anthropic&logoColor=white)
+![A2A](https://img.shields.io/badge/A2A-4B6BFB?style=plastic&logo=google&logoColor=white)
+![FastMCP](https://img.shields.io/badge/FastMCP-111827?style=plastic&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=plastic&logo=langchain&logoColor=white)
+![DeepAgents](https://img.shields.io/badge/DeepAgents-111827?style=plastic&logo=python&logoColor=white)
 
 <!-- ==================== DATA / ML ==================== -->
 
@@ -257,6 +271,22 @@ AI-powered civic intelligence system for **Vadodara Municipal Corporation**, com
 <p align="center">
   <a href="https://github.com/BORUTOUZUMAKI07/ai-civic-issue-monitoring">SOURCE</a>
 </p>
+
+---
+
+## 🧠 AI Engineering Focus
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Agentic%20AI-MCP%20%7C%20A2A-00F7FF?style=for-the-badge" alt="Agentic AI protocols">
+  <img src="https://img.shields.io/badge/RAG-%20Retrieval%20%7C%20Reranking%20%7C%20Evaluation-8A2BE2?style=for-the-badge" alt="RAG">
+  <img src="https://img.shields.io/badge/Production%20AI-Observability%20%7C%20Evaluation%20%7C%20CI%2FCD-FF1493?style=for-the-badge" alt="Production AI">
+</p>
+
+> **MCP** → connect agents to tools, resources and context  
+> **A2A** → enable agent-to-agent communication and delegation  
+> **LangGraph** → build stateful, controllable agent workflows  
+> **RAG** → retrieval, reranking, grounding and evaluation  
+> **AI Infra** → observability, evaluation, deployment and reliable production systems
 
 ---
 
