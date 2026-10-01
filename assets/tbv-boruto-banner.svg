@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset=".55" stop-color="#071a35"/>
+      <stop offset="1" stop-color="#16072b"/>
+    </linearGradient>
+    <linearGradient id="aura" x1="0" x2="1">
+      <stop offset="0" stop-color="#27b7ff"/>
+      <stop offset=".5" stop-color="#6c63ff"/>
+      <stop offset="1" stop-color="#ff4fa3"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <path id="vortex" d="M620 210c0-70 60-120 132-103 49 11 82 51 82 94 0 55-45 100-101 100-48 0-85-33-85-76 0-35 29-64 65-64 28 0 49 19 49 44 0 19-15 34-34 34"/>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <circle cx="845" cy="205" r="150" fill="#258cff" opacity=".10" filter="url(#soft)"/>
+  <circle cx="1030" cy="110" r="120" fill="#ff3cae" opacity=".08" filter="url(#soft)"/>
+
+  <g opacity=".18" fill="#9ddcff">
+    <circle cx="55" cy="55" r="2"/><circle cx="105" cy="110" r="1.5"/><circle cx="180" cy="44" r="2"/>
+    <circle cx="270" cy="92" r="1.5"/><circle cx="330" cy="40" r="2"/><circle cx="420" cy="115" r="1.5"/>
+    <circle cx="1080" cy="55" r="2"/><circle cx="1140" cy="135" r="1.5"/><circle cx="1170" cy="260" r="2"/>
+  </g>
+
+  <!-- animated vortex -->
+  <g fill="none" stroke="url(#aura)" stroke-linecap="round" filter="url(#glow)">
+    <use href="#vortex" stroke-width="3" opacity=".8">
+      <animateTransform attributeName="transform" type="rotate" from="0 752 210" to="360 752 210" dur="12s" repeatCount="indefinite"/>
+    </use>
+    <circle cx="752" cy="210" r="112" stroke-width="1" opacity=".35">
+      <animate attributeName="r" values="95;125;95" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.55;.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- adult shinobi silhouette -->
+  <g transform="translate(885 40)">
+    <!-- cloak -->
+    <path d="M48 220 Q85 170 108 105 L145 105 Q170 175 214 220 L240 350 L20 350 Z"
+          fill="#080d18" stroke="#2bb8ff" stroke-width="2"/>
+    <path d="M95 145 Q145 190 184 150" fill="none" stroke="#6f5cff" stroke-width="3" opacity=".7"/>
+    <!-- sword -->
+    <g transform="rotate(-20 205 185)">
+      <rect x="200" y="55" width="9" height="190" rx="4" fill="#dbeafe"/>
+      <rect x="192" y="220" width="25" height="10" rx="3" fill="#ffcc5c"/>
+      <rect x="198" y="230" width="13" height="58" fill="#1d2430"/>
+    </g>
+    <!-- head -->
+    <ellipse cx="130" cy="98" rx="55" ry="62" fill="#e8b08c"/>
+    <!-- hair -->
+    <path d="M76 82 L52 38 L89 55 L77 18 L111 46 L121 5 L141 43 L174 18 L164 55 L205 42 L177 82
+             Q150 62 130 65 Q105 62 76 82Z" fill="#d9b16d"/>
+    <!-- headband -->
+    <path d="M77 75 Q130 53 184 75 L180 94 Q130 76 81 94Z" fill="#202938" stroke="#4fc3ff" stroke-width="2"/>
+    <path d="M119 68 L147 68 L151 88 L116 88Z" fill="#aeb7c7"/>
+    <!-- eye -->
+    <path d="M145 92 Q162 84 176 94 Q161 104 145 97Z" fill="#4fc3ff"/>
+    <circle cx="162" cy="94" r="4" fill="#07101e"/>
+    <!-- karma-style markings -->
+    <path d="M161 104 Q179 117 168 135 M168 118 Q183 126 176 142" fill="none" stroke="#39c8ff" stroke-width="3"/>
+    <!-- face shadow -->
+    <path d="M110 108 Q125 125 143 125" fill="none" stroke="#7b463c" stroke-width="2" opacity=".45"/>
+    <!-- arm -->
+    <path d="M65 205 Q35 250 48 295" fill="none" stroke="#111827" stroke-width="27" stroke-linecap="round"/>
+    <path d="M193 205 Q225 250 214 292" fill="none" stroke="#111827" stroke-width="27" stroke-linecap="round"/>
+    <!-- aura -->
+    <circle cx="130" cy="180" r="150" fill="none" stroke="#20baff" stroke-width="2" opacity=".18">
+      <animate attributeName="r" values="125;165;125" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- foreground title -->
+  <g transform="translate(55 75)">
+    <text x="0" y="0" fill="#46c8ff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="3">BORUTO</text>
+    <text x="4" y="42" fill="#dcecff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="6">TWO BLUE VORTEX</text>
+    <text x="5" y="78" fill="#8fa8c7" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="7">DISCIPLINE  ×  BUILD  ×  EVOLVE</text>
+    <line x1="5" y1="105" x2="450" y2="105" stroke="url(#aura)" stroke-width="2"/>
+    <text x="5" y="155" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Full-Stack × AI/LLM Engineer</text>
+    <text x="5" y="188" fill="#a9c8e8" font-family="Arial, Helvetica, sans-serif" font-size="17">Building production-ready intelligent applications.</text>
+    <g transform="translate(5 220)">
+      <rect width="110" height="34" rx="17" fill="#071a2d" stroke="#2bb8ff"/>
+      <text x="55" y="22" text-anchor="middle" fill="#bdeaff" font-family="Arial" font-size="13">FULL-STACK</text>
+      <rect x="120" width="90" height="34" rx="17" fill="#11152e" stroke="#7765ff"/>
+      <text x="165" y="22" text-anchor="middle" fill="#ddd8ff" font-family="Arial" font-size="13">AI / LLM</text>
+      <rect x="220" width="70" height="34" rx="17" fill="#21112b" stroke="#ff4fa3"/>
+      <text x="255" y="22" text-anchor="middle" fill="#ffd5ed" font-family="Arial" font-size="13">RAG</text>
+      <rect x="300" width="112" height="34" rx="17" fill="#071a2d" stroke="#2bb8ff"/>
+      <text x="356" y="22" text-anchor="middle" fill="#bdeaff" font-family="Arial" font-size="13">AGENTIC AI</text>
+    </g>
+  </g>
+
+  <g transform="translate(55 360)">
+    <text fill="#6f8eae" font-family="Arial" font-size="12" letter-spacing="4">BORUTOUZUMAKI07 • BUILDING THE FUTURE</text>
+  </g>
+
+  <!-- animated petals -->
+  <g fill="#ff4fa3" opacity=".65">
+    <path d="M510 55 q20 5 5 24 q-18-2-5-24z"><animateTransform attributeName="transform" type="translate" values="0 0;25 100;5 190" dur="7s" repeatCount="indefinite"/></path>
+    <path d="M575 285 q18 4 4 21 q-17-2-4-21z"><animateTransform attributeName="transform" type="translate" values="0 0;-20 70;10 130" dur="6s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
