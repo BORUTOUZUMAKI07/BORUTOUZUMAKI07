@@ -1,27 +1,42 @@
-<div align="center">
+<!-- ========================================================= -->
+<!--                 CINEMATIC DEVELOPER PROFILE                -->
+<!-- ========================================================= -->
 
-<p>
-  <a href="https://github.com/BORUTOUZUMAKI07">
-    <picture>
-      <source srcset="./assets/sriram_dynamic_hero.gif" type="image/gif">
-      <img src="https://image.pollinations.ai/prompt/cinematic%20anime%20developer%20portfolio%20hero%2C%20mature%20blond%20shinobi%20swordsman%2C%20dark%20blue%20violet%20futuristic%20Japanese%20city%2C%20premium%20AI%20engineering%20dashboard%2C%20SRIRAM%2C%20full-stack%20developer%20AI%20LLM%20engineer%2C%20LinkForge%20Nexus%20AI%20Assistant%20AI%20Civic%20Issue%20Monitoring%2C%20cinematic%20professional%20portfolio%2C%20no%20Shiva?width=1536&height=1024&model=flux&seed=2707&nologo=true" width="100%" alt="Sriram cinematic developer portfolio hero">
-    </picture>
-  </a>
+<p align="center">
+  <picture>
+    <source srcset="./assets/sriram_dynamic_hero_v2.gif" type="image/gif">
+    <img
+      src="https://image.pollinations.ai/prompt/cinematic%20anime%20developer%20portfolio%20hero%2C%20mature%20blond%20shinobi%20swordsman%2C%20dark%20blue%20violet%20futuristic%20Japanese%20city%2C%20premium%20AI%20engineering%20dashboard%2C%20SRIRAM%2C%20full-stack%20developer%20AI%20LLM%20engineer%2C%20LinkForge%20Nexus%20AI%20Assistant%20AI%20Civic%20Issue%20Monitoring%2C%20cinematic%20professional%20portfolio?width=1536&height=1024&model=flux&seed=2707&nologo=true"
+      width="100%"
+      alt="Sriram cinematic developer portfolio hero"
+    >
+  </picture>
 </p>
 
-<p>
-  <a href="https://github.com/BORUTOUZUMAKI07/url-shortner">🔗 LinkForge</a> ·
-  <a href="https://github.com/BORUTOUZUMAKI07/nexus-ai-assistant">🧠 Nexus AI Assistant</a> ·
-  <a href="https://github.com/BORUTOUZUMAKI07/ai-civic-issue-monitoring">🏛️ AI Civic Monitoring</a>
+<p align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Sriram+%F0%9F%91%8B;Full-Stack+Developer+%7C+AI%2FLLM+Engineer;Building+Production-Grade+AI+Systems;RAG+%7C+Agentic+AI+%7C+MLOps;Turning+Ideas+Into+Real+Products;Build+%E2%80%A2+Evolve+%E2%80%A2+Ship"
+    alt="Typing introduction"
+  />
 </p>
 
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:8A2BE2&height=110&section=header" width="100%" alt="Cinematic divider">
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BORUTOUZUMAKI07&label=PROFILE+VIEWS&color=00F7FF&style=for-the-badge" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/BORUTOUZUMAKI07?style=for-the-badge&label=FOLLOWERS&color=8A2BE2" alt="Followers">
+  <img src="https://img.shields.io/github/stars/BORUTOUZUMAKI07?style=for-the-badge&label=STARS&color=00F7FF" alt="Stars">
+</p>
+
+---
 
 ## 👋 About Me
 
 I'm **Sriram**, a BTech engineering student and full-stack developer focused on **AI/LLM engineering, intelligent applications, RAG, agentic systems, and production ML infrastructure**.
 
-I like building systems that go beyond demos: APIs, modern frontends, AI agents, retrieval pipelines, observability, CI/CD, distributed services, and production-oriented developer tooling.
+I like building systems that go beyond demos: modern frontends, production APIs, AI agents, retrieval pipelines, observability, CI/CD, distributed services, and developer tooling.
 
 ### What I build
 
@@ -33,9 +48,68 @@ I like building systems that go beyond demos: APIs, modern frontends, AI agents,
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 What I Build
 
-These are **real repository cards** generated from GitHub data and wrapped in real repository links, so clicking a card opens the corresponding project. citeturn8search0
+<p align="center">
+  <img src="https://img.shields.io/badge/FULL--STACK-00F7FF?style=for-the-badge" alt="Full Stack">
+  <img src="https://img.shields.io/badge/AI%20%2F%20LLM-8A2BE2?style=for-the-badge" alt="AI LLM">
+  <img src="https://img.shields.io/badge/RAG-FF1493?style=for-the-badge" alt="RAG">
+  <img src="https://img.shields.io/badge/AGENTIC%20AI-00F7FF?style=for-the-badge" alt="Agentic AI">
+  <img src="https://img.shields.io/badge/MLOps-8A2BE2?style=for-the-badge" alt="MLOps">
+  <img src="https://img.shields.io/badge/OPEN%20SOURCE-FF1493?style=for-the-badge" alt="Open Source">
+</p>
+
+<p align="center">
+  AI Copilots • Agentic AI • RAG • Full-Stack SaaS • Distributed Systems • MLOps • Computer Vision
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=typescript,javascript,react,nextjs,html,css,tailwind&perline=7" alt="Frontend stack">
+</p>
+
+<p align="center">
+  TypeScript • JavaScript • React • Next.js • HTML • CSS • Tailwind CSS • shadcn/ui
+</p>
+
+### ⚙️ Backend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,flask,postgres,mongodb,redis,kafka&perline=8" alt="Backend stack">
+</p>
+
+<p align="center">
+  Python • FastAPI • Django • Flask • PostgreSQL • MongoDB • Redis • Kafka • SQLAlchemy
+</p>
+
+### 🧠 AI / ML / LLM
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&perline=6" alt="AI and ML stack">
+</p>
+
+<p align="center">
+  Transformers • LangChain • LangGraph • RAG • MCP • Agentic AI • Embeddings • Reranking • Evaluation • Guardrails • Computer Vision
+</p>
+
+### ☁️ DevOps / MLOps / Observability
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,git,github,linux&perline=6" alt="DevOps stack">
+</p>
+
+<p align="center">
+  Docker • Kubernetes • GitHub Actions • MLflow • DVC • Prefect • Kubeflow • Weights & Biases • Grafana • Prometheus • New Relic • OpenTelemetry
+</p>
+
+---
+
+## 🔥 Featured Projects
 
 <p align="center">
   <a href="https://github.com/BORUTOUZUMAKI07/url-shortner">
@@ -51,77 +125,40 @@ These are **real repository cards** generated from GitHub data and wrapped in re
     <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=BORUTOUZUMAKI07&repo=ai-civic-issue-monitoring&theme=tokyonight&hide_border=true" alt="AI Civic Issue Monitoring repository">
   </a>
   <a href="https://url-shortner-peay.vercel.app">
-    <img width="48%" src="https://img.shields.io/badge/LinkForge-Live%20Demo-00d9ff?style=for-the-badge&logo=vercel&logoColor=white" alt="LinkForge live demo">
+    <img width="48%" src="https://img.shields.io/badge/LINKFORGE-LIVE%20DEMO-00F7FF?style=for-the-badge&logo=vercel&logoColor=black" alt="LinkForge live demo">
   </a>
 </p>
 
 ### 🔗 LinkForge
 
-Enterprise URL-shortening platform with **multi-tenant workspaces, click analytics, QR codes, webhooks, API keys, RBAC and an event-driven architecture**.
+Enterprise URL-shortening platform with **multi-tenant workspaces, click analytics, QR codes, webhooks, API keys, team collaboration, and event-driven architecture**.
 
-**Stack:** Next.js · React · TypeScript · FastAPI · SQLAlchemy · PostgreSQL · MongoDB · Redis · Kafka · OpenTelemetry · New Relic · Docker · GitHub Actions
+**Stack:** Next.js • React • TypeScript • FastAPI • SQLAlchemy • PostgreSQL/Neon • MongoDB • Redis • Kafka • Schema Registry • OpenTelemetry • New Relic • Docker • GitHub Actions
 
-[Repository](https://github.com/BORUTOUZUMAKI07/url-shortner) · [Live Frontend](https://url-shortner-peay.vercel.app) · [Backend](https://linkforge-backend-v46v.onrender.com)
+<p align="center">
+  <a href="https://github.com/BORUTOUZUMAKI07/url-shortner">SOURCE</a> ·
+  <a href="https://url-shortner-peay.vercel.app">LIVE FRONTEND</a>
+</p>
 
 ### 🧠 Nexus AI Assistant
 
-Production-grade AI copilot built as a **FastAPI + LangGraph backend with a Next.js 16 frontend**, including multi-agent orchestration, hybrid RAG, human-in-the-loop approvals, plan mode, memory, MCP tool execution, artifacts and observability.
+Production-grade AI copilot built with a **FastAPI + LangGraph backend and Next.js frontend**, including agent orchestration, hybrid RAG, HITL tool approvals, plan mode, memory, organizations/sharing, audio, MCP tool execution, artifacts, admin observability and prompt regression testing.
 
-**Stack:** FastAPI · LangGraph · Next.js 16 · PostgreSQL/pgvector · Qdrant · Redis · Celery · MCP · RAG · Docker · CI/CD
+**Stack:** FastAPI • LangGraph • Next.js • PostgreSQL/pgvector • Qdrant • Redis • Celery • MCP • RAG • Docker • CI/CD
 
-[Repository](https://github.com/BORUTOUZUMAKI07/nexus-ai-assistant)
+<p align="center">
+  <a href="https://github.com/BORUTOUZUMAKI07/nexus-ai-assistant">SOURCE</a>
+</p>
 
 ### 🏛️ AI Civic Issue Monitoring
 
-Production-oriented civic monitoring system for **Vadodara Municipal Corporation**, combining computer vision, issue classification, LangGraph agents, drift detection, SLA monitoring and a Next.js dashboard.
+AI-powered civic intelligence system for **Vadodara Municipal Corporation**, combining computer vision for potholes and garbage, issue classification, LangGraph workflows, real-time drift detection, SLA monitoring and a Next.js dashboard.
 
-**Stack:** FastAPI · Next.js · PyTorch · MobileNetV2 · LangGraph · PostgreSQL/pgvector · MongoDB · Redis · Prefect · Docker · DVC · New Relic
-
-[Repository](https://github.com/BORUTOUZUMAKI07/ai-civic-issue-monitoring)
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind" alt="Frontend stack">
-</p>
-
-### Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,django,flask,postgres,mongodb,redis,kafka" alt="Backend stack">
-</p>
-
-### AI / ML / LLM
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="AI and ML stack">
-</p>
-
-**AI/LLM:** Transformers · LangChain · LangGraph · RAG · MCP · Agentic AI · Embeddings · Reranking · Evaluation · Guardrails
-
-### DevOps / MLOps / Observability
-
-Docker · Kubernetes · GitHub Actions · MLflow · DVC · Prefect · Kubeflow · Weights & Biases · Grafana · Prometheus · New Relic · OpenTelemetry
-
----
-
-## 📊 Real GitHub Activity
-
-The contribution/activity graph below is generated from GitHub activity rather than manually invented numbers. The activity-graph project documents a dynamic graph of recent GitHub activity. citeturn2search0
+**Stack:** FastAPI • Next.js • PyTorch • MobileNetV2 • LangGraph • PostgreSQL/pgvector • MongoDB • Redis • Prefect • Docker • DVC • New Relic
 
 <p align="center">
-  <a href="https://github.com/BORUTOUZUMAKI07">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=BORUTOUZUMAKI07&theme=tokyo-night&hide_border=true&area=true&custom_title=Sriram%20GitHub%20Activity" width="100%" alt="Sriram GitHub activity graph">
-  </a>
+  <a href="https://github.com/BORUTOUZUMAKI07/ai-civic-issue-monitoring">SOURCE</a>
 </p>
-
-<p align="center">
-  <img src="./profile/stats.svg" width="49%" alt="Live GitHub statistics">
-  <img src="./profile/top-langs.svg" width="49%" alt="Live GitHub top languages">
-</p>
-
-> The profile repository contains a GitHub Actions workflow that regenerates the stats cards automatically from GitHub data.
 
 ---
 
@@ -129,23 +166,72 @@ The contribution/activity graph below is generated from GitHub activity rather t
 
 | Area | Focus |
 |---|---|
-| **AI Engineering** | LLM applications, RAG, agents, tool calling, MCP, evaluation |
-| **ML Engineering** | NLP, CV, PyTorch, training pipelines, drift detection |
-| **Full Stack** | Next.js, React, TypeScript, FastAPI, Django, Flask |
-| **Data** | PostgreSQL, MongoDB, Redis, Kafka, pgvector, Qdrant |
-| **MLOps** | MLflow, DVC, Prefect, Docker, Kubernetes, CI/CD |
-| **Observability** | OpenTelemetry, New Relic, Grafana, Prometheus |
-| **Architecture** | distributed systems, event-driven systems, APIs, caching, queues |
+| 🤖 **AI Engineering** | LLM applications, RAG, agents, tool calling, MCP, evaluation |
+| 🧠 **ML Engineering** | NLP, computer vision, PyTorch, training pipelines, drift detection |
+| 🌐 **Full Stack** | Next.js, React, TypeScript, FastAPI, Django, Flask |
+| 🗄️ **Data** | PostgreSQL, MongoDB, Redis, Kafka, pgvector, Qdrant |
+| ⚙️ **MLOps** | MLflow, DVC, Prefect, Docker, Kubernetes, CI/CD |
+| 📡 **Observability** | OpenTelemetry, New Relic, Grafana, Prometheus |
+| 🏗️ **Architecture** | APIs, distributed systems, event-driven systems, caching, queues |
 
 ---
 
-## 🎯 Current Direction
+## 📊 GitHub Activity
 
-Building toward **production-grade AI engineering**: combining strong software engineering fundamentals with LLM systems, agentic workflows, RAG, MLOps, observability and scalable full-stack applications.
+<p align="center">
+  <a href="https://github.com/BORUTOUZUMAKI07">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=BORUTOUZUMAKI07&theme=tokyo-night&hide_border=true&area=true&custom_title=Sriram%20GitHub%20Activity" width="100%" alt="GitHub activity graph">
+  </a>
+</p>
+
+<p align="center">
+  <img src="./profile/stats.svg" width="49%" alt="GitHub statistics">
+  <img src="./profile/top-langs.svg" width="49%" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BORUTOUZUMAKI07&theme=tokyonight&hide_border=true" alt="GitHub contribution streak">
+</p>
 
 ---
 
-## 🤝 Connect With Me
+## 🐍 Contribution Activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake">
+</p>
+
+---
+
+## 🔭 Currently Building
+
+<p align="center">
+  🤖 Production AI Agents &nbsp; • &nbsp;
+  🧠 Advanced RAG Systems &nbsp; • &nbsp;
+  ⚡ Full-Stack AI Applications
+</p>
+
+<p align="center">
+  🏗️ Distributed Backend Systems &nbsp; • &nbsp;
+  📊 AI / ML Observability &nbsp; • &nbsp;
+  ☁️ Production MLOps Infrastructure
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00F7FF&height=100&section=footer" width="100%" alt="Footer divider">
+</p>
+
+<h2 align="center">⚡ BUILD • EVOLVE • SHIP ⚡</h2>
+
+<p align="center">
+  <i>Turning ideas into systems that actually work.</i>
+</p>
+
+---
+
+## 🌐 Connect With Me
 
 <p align="center">
   <a href="https://github.com/BORUTOUZUMAKI07">
@@ -155,12 +241,10 @@ Building toward **production-grade AI engineering**: combining strong software e
     <img src="https://img.shields.io/badge/LinkedIn-Sriram%20Achalla-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://url-shortner-peay.vercel.app">
-    <img src="https://img.shields.io/badge/LinkForge-Live%20Demo-00d9ff?style=for-the-badge&logo=vercel&logoColor=white" alt="LinkForge">
+    <img src="https://img.shields.io/badge/LinkForge-Live%20Demo-00F7FF?style=for-the-badge&logo=vercel&logoColor=black" alt="LinkForge">
   </a>
 </p>
 
-<div align="center">
-
-**BUILD • EVOLVE • SHIP**
-
-</div>
+<p align="center">
+  <strong>Let's build something meaningful.</strong>
+</p>
