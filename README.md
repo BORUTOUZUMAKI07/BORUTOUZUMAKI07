@@ -4,6 +4,7 @@
 </p>
 
 <p align="center">
+  <img src="https://avatars.githubusercontent.com/u/172597480?v=4" width="120" alt="Profile picture"/><br/><br/>
   <img src="https://komarev.com/ghpvc/?username=BORUTOUZUMAKI07&style=for-the-badge&color=1f6feb" alt="Profile views"/>
 </p>
 
