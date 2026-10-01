@@ -9,7 +9,7 @@
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Sriram+%F0%9F%91%8B;Full-Stack+Developer+%7C+AI%2FLLM+Engineer;Building+Production-Grade+AI+Systems;RAG+%7C+Agentic+AI+%7C+MLOps;Turning+Ideas+Into+Real+Products;Build+%E2%80%A2+Evolve+%E2%80%A2+Ship"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3500&pause=900&color=00F7FF&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Sriram+%F0%9F%91%8B;AI%2FLLM+Engineer+%7C+Full-Stack+Developer;Building+Production-Grade+AI+Systems;Agentic+AI+%7C+MCP+%7C+A2A+%7C+RAG;MLOps+%7C+Observability+%7C+Production+Engineering;Turning+Ideas+Into+Real+Products;Build+%E2%80%A2+Evolve+%E2%80%A2+Ship"
     alt="Typing introduction"
   />
 </p>
@@ -45,16 +45,16 @@ I like building systems that go beyond demos: modern frontends, production APIs,
 ## 🚀 What I Build
 
 <p align="center">
+  <img src="https://img.shields.io/badge/AI%20%2F%20LLM-00F7FF?style=for-the-badge" alt="AI LLM">
+  <img src="https://img.shields.io/badge/AGENTIC%20AI-8A2BE2?style=for-the-badge" alt="Agentic AI">
+  <img src="https://img.shields.io/badge/MCP%20%2B%20A2A-00F7FF?style=for-the-badge" alt="MCP and A2A">
+  <img src="https://img.shields.io/badge/RAG-8A2BE2?style=for-the-badge" alt="RAG">
   <img src="https://img.shields.io/badge/FULL--STACK-00F7FF?style=for-the-badge" alt="Full Stack">
-  <img src="https://img.shields.io/badge/AI%20%2F%20LLM-8A2BE2?style=for-the-badge" alt="AI LLM">
-  <img src="https://img.shields.io/badge/RAG-FF1493?style=for-the-badge" alt="RAG">
-  <img src="https://img.shields.io/badge/AGENTIC%20AI-00F7FF?style=for-the-badge" alt="Agentic AI">
   <img src="https://img.shields.io/badge/MLOps-8A2BE2?style=for-the-badge" alt="MLOps">
-  <img src="https://img.shields.io/badge/OPEN%20SOURCE-FF1493?style=for-the-badge" alt="Open Source">
 </p>
 
 <p align="center">
-  AI Copilots • Agentic AI • RAG • Full-Stack SaaS • Distributed Systems • MLOps • Computer Vision
+  AI Copilots • Agentic AI • MCP • A2A • RAG • Full-Stack SaaS • Distributed Systems • MLOps
 </p>
 
 ---
@@ -294,13 +294,14 @@ AI-powered civic intelligence system for **Vadodara Municipal Corporation**, com
 
 | Area | Focus |
 |---|---|
-| 🤖 **AI Engineering** | LLM applications, RAG, agents, tool calling, MCP, evaluation |
-| 🧠 **ML Engineering** | NLP, computer vision, PyTorch, training pipelines, drift detection |
+| 🤖 **AI / LLM Engineering** | LLM applications, RAG, agents, MCP, A2A, tool calling, evaluation |
+| 🔗 **Agentic Systems** | LangGraph, MCP servers, A2A communication, multi-agent workflows, HITL |
 | 🌐 **Full Stack** | Next.js, React, TypeScript, FastAPI, Django, Flask |
-| 🗄️ **Data** | PostgreSQL, MongoDB, Redis, Kafka, pgvector, Qdrant |
-| ⚙️ **MLOps** | MLflow, DVC, Prefect, Docker, Kubernetes, CI/CD |
+| ⚙️ **Production AI / MLOps** | MLflow, DVC, Prefect, Docker, Kubernetes, CI/CD |
 | 📡 **Observability** | OpenTelemetry, New Relic, Grafana, Prometheus |
+| 🗄️ **Data** | PostgreSQL, MongoDB, Redis, Kafka, pgvector, Qdrant |
 | 🏗️ **Architecture** | APIs, distributed systems, event-driven systems, caching, queues |
+| 🧠 **ML Engineering** | NLP, computer vision, PyTorch, training pipelines, drift detection |
 
 ---
 
@@ -329,7 +330,8 @@ AI-powered civic intelligence system for **Vadodara Municipal Corporation**, com
 
 <p align="center">
   🤖 Production AI Agents &nbsp; • &nbsp;
-  🧠 Advanced RAG Systems &nbsp; • &nbsp;
+  🔌 MCP / A2A Systems &nbsp; • &nbsp;
+  🧠 Advanced RAG &nbsp; • &nbsp;
   ⚡ Full-Stack AI Applications
 </p>
 
@@ -350,8 +352,6 @@ AI-powered civic intelligence system for **Vadodara Municipal Corporation**, com
 <p align="center">
   <i>Turning ideas into systems that actually work.</i>
 </p>
-
----
 
 ## 🌐 Connect With Me
 
