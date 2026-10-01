@@ -1,6 +1,10 @@
 name: Update profile stats
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile/**"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
