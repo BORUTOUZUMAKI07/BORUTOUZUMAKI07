@@ -2,16 +2,7 @@
 <!--                 CINEMATIC DEVELOPER PROFILE                -->
 <!-- ========================================================= -->
 
-<p align="center">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/main/assets/sriram_dynamic_hero_v2.gif?v=2" type="image/gif">
-    <img
-      src="https://image.pollinations.ai/prompt/cinematic%20anime%20developer%20portfolio%20hero%2C%20mature%20blond%20shinobi%20swordsman%2C%20dark%20blue%20violet%20futuristic%20Japanese%20city%2C%20premium%20AI%20engineering%20dashboard%2C%20SRIRAM%2C%20full-stack%20developer%20AI%20LLM%20engineer%2C%20LinkForge%20Nexus%20AI%20Assistant%20AI%20Civic%20Issue%20Monitoring%2C%20cinematic%20professional%20portfolio?width=1536&height=1024&model=flux&seed=2707&nologo=true"
-      width="100%"
-      alt="Sriram cinematic developer portfolio hero"
-    >
-  </picture>
-</p>
+
 
 <p align="center">
   <img
