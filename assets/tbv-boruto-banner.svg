@@ -1,110 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#030712"/>
-      <stop offset=".55" stop-color="#071a35"/>
-      <stop offset="1" stop-color="#16072b"/>
-    </linearGradient>
-    <linearGradient id="aura" x1="0" x2="1">
-      <stop offset="0" stop-color="#27b7ff"/>
-      <stop offset=".5" stop-color="#6c63ff"/>
-      <stop offset="1" stop-color="#ff4fa3"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="18"/>
-    </filter>
-    <path id="vortex" d="M620 210c0-70 60-120 132-103 49 11 82 51 82 94 0 55-45 100-101 100-48 0-85-33-85-76 0-35 29-64 65-64 28 0 49 19 49 44 0 19-15 34-34 34"/>
-  </defs>
-
-  <rect width="1200" height="420" fill="url(#bg)"/>
-  <circle cx="845" cy="205" r="150" fill="#258cff" opacity=".10" filter="url(#soft)"/>
-  <circle cx="1030" cy="110" r="120" fill="#ff3cae" opacity=".08" filter="url(#soft)"/>
-
-  <g opacity=".18" fill="#9ddcff">
-    <circle cx="55" cy="55" r="2"/><circle cx="105" cy="110" r="1.5"/><circle cx="180" cy="44" r="2"/>
-    <circle cx="270" cy="92" r="1.5"/><circle cx="330" cy="40" r="2"/><circle cx="420" cy="115" r="1.5"/>
-    <circle cx="1080" cy="55" r="2"/><circle cx="1140" cy="135" r="1.5"/><circle cx="1170" cy="260" r="2"/>
-  </g>
-
-  <!-- animated vortex -->
-  <g fill="none" stroke="url(#aura)" stroke-linecap="round" filter="url(#glow)">
-    <use href="#vortex" stroke-width="3" opacity=".8">
-      <animateTransform attributeName="transform" type="rotate" from="0 752 210" to="360 752 210" dur="12s" repeatCount="indefinite"/>
-    </use>
-    <circle cx="752" cy="210" r="112" stroke-width="1" opacity=".35">
-      <animate attributeName="r" values="95;125;95" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".2;.55;.2" dur="4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- adult shinobi silhouette -->
-  <g transform="translate(885 40)">
-    <!-- cloak -->
-    <path d="M48 220 Q85 170 108 105 L145 105 Q170 175 214 220 L240 350 L20 350 Z"
-          fill="#080d18" stroke="#2bb8ff" stroke-width="2"/>
-    <path d="M95 145 Q145 190 184 150" fill="none" stroke="#6f5cff" stroke-width="3" opacity=".7"/>
-    <!-- sword -->
-    <g transform="rotate(-20 205 185)">
-      <rect x="200" y="55" width="9" height="190" rx="4" fill="#dbeafe"/>
-      <rect x="192" y="220" width="25" height="10" rx="3" fill="#ffcc5c"/>
-      <rect x="198" y="230" width="13" height="58" fill="#1d2430"/>
-    </g>
-    <!-- head -->
-    <ellipse cx="130" cy="98" rx="55" ry="62" fill="#e8b08c"/>
-    <!-- hair -->
-    <path d="M76 82 L52 38 L89 55 L77 18 L111 46 L121 5 L141 43 L174 18 L164 55 L205 42 L177 82
-             Q150 62 130 65 Q105 62 76 82Z" fill="#d9b16d"/>
-    <!-- headband -->
-    <path d="M77 75 Q130 53 184 75 L180 94 Q130 76 81 94Z" fill="#202938" stroke="#4fc3ff" stroke-width="2"/>
-    <path d="M119 68 L147 68 L151 88 L116 88Z" fill="#aeb7c7"/>
-    <!-- eye -->
-    <path d="M145 92 Q162 84 176 94 Q161 104 145 97Z" fill="#4fc3ff"/>
-    <circle cx="162" cy="94" r="4" fill="#07101e"/>
-    <!-- karma-style markings -->
-    <path d="M161 104 Q179 117 168 135 M168 118 Q183 126 176 142" fill="none" stroke="#39c8ff" stroke-width="3"/>
-    <!-- face shadow -->
-    <path d="M110 108 Q125 125 143 125" fill="none" stroke="#7b463c" stroke-width="2" opacity=".45"/>
-    <!-- arm -->
-    <path d="M65 205 Q35 250 48 295" fill="none" stroke="#111827" stroke-width="27" stroke-linecap="round"/>
-    <path d="M193 205 Q225 250 214 292" fill="none" stroke="#111827" stroke-width="27" stroke-linecap="round"/>
-    <!-- aura -->
-    <circle cx="130" cy="180" r="150" fill="none" stroke="#20baff" stroke-width="2" opacity=".18">
-      <animate attributeName="r" values="125;165;125" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- foreground title -->
-  <g transform="translate(55 75)">
-    <text x="0" y="0" fill="#46c8ff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="3">BORUTO</text>
-    <text x="4" y="42" fill="#dcecff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="6">TWO BLUE VORTEX</text>
-    <text x="5" y="78" fill="#8fa8c7" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="7">DISCIPLINE  ×  BUILD  ×  EVOLVE</text>
-    <line x1="5" y1="105" x2="450" y2="105" stroke="url(#aura)" stroke-width="2"/>
-    <text x="5" y="155" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Full-Stack × AI/LLM Engineer</text>
-    <text x="5" y="188" fill="#a9c8e8" font-family="Arial, Helvetica, sans-serif" font-size="17">Building production-ready intelligent applications.</text>
-    <g transform="translate(5 220)">
-      <rect width="110" height="34" rx="17" fill="#071a2d" stroke="#2bb8ff"/>
-      <text x="55" y="22" text-anchor="middle" fill="#bdeaff" font-family="Arial" font-size="13">FULL-STACK</text>
-      <rect x="120" width="90" height="34" rx="17" fill="#11152e" stroke="#7765ff"/>
-      <text x="165" y="22" text-anchor="middle" fill="#ddd8ff" font-family="Arial" font-size="13">AI / LLM</text>
-      <rect x="220" width="70" height="34" rx="17" fill="#21112b" stroke="#ff4fa3"/>
-      <text x="255" y="22" text-anchor="middle" fill="#ffd5ed" font-family="Arial" font-size="13">RAG</text>
-      <rect x="300" width="112" height="34" rx="17" fill="#071a2d" stroke="#2bb8ff"/>
-      <text x="356" y="22" text-anchor="middle" fill="#bdeaff" font-family="Arial" font-size="13">AGENTIC AI</text>
-    </g>
-  </g>
-
-  <g transform="translate(55 360)">
-    <text fill="#6f8eae" font-family="Arial" font-size="12" letter-spacing="4">BORUTOUZUMAKI07 • BUILDING THE FUTURE</text>
-  </g>
-
-  <!-- animated petals -->
-  <g fill="#ff4fa3" opacity=".65">
-    <path d="M510 55 q20 5 5 24 q-18-2-5-24z"><animateTransform attributeName="transform" type="translate" values="0 0;25 100;5 190" dur="7s" repeatCount="indefinite"/></path>
-    <path d="M575 285 q18 4 4 21 q-17-2-4-21z"><animateTransform attributeName="transform" type="translate" values="0 0;-20 70;10 130" dur="6s" repeatCount="indefinite"/></path>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
+<desc id="desc">Animated neon anime-inspired developer banner with a blue vortex, shinobi silhouette, project panels and Full-Stack AI LLM Engineer branding.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020611"/><stop offset=".45" stop-color="#071a38"/><stop offset="1" stop-color="#180626"/></linearGradient>
+<linearGradient id="cyanPink" x1="0" x2="1"><stop stop-color="#27c8ff"/><stop offset=".48" stop-color="#6e63ff"/><stop offset="1" stop-color="#ff4ca5"/></linearGradient>
+<linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1b1"/><stop offset=".45" stop-color="#d9ae61"/><stop offset="1" stop-color="#a66f42"/></linearGradient>
+<radialGradient id="orb"><stop stop-color="#bff7ff" stop-opacity=".9"/><stop offset=".25" stop-color="#38cfff" stop-opacity=".55"/><stop offset="1" stop-color="#5a48ff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#79cfff" stroke-opacity=".06"/></pattern>
+<pattern id="scan" width="4" height="8" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".025"/></pattern>
+<clipPath id="round"><rect width="1400" height="620" rx="24"/></clipPath>
+<path id="vortexPath" d="M790 278c0-111 95-190 205-163 75 18 126 78 126 145 0 86-70 155-158 155-75 0-133-51-133-119 0-55 45-101 102-101 44 0 77 30 77 69 0 30-24 53-53 53"/>
+</defs>
+<g clip-path="url(#round)">
+<rect width="1400" height="620" fill="url(#bg)"/><rect width="1400" height="620" fill="url(#grid)"/><rect width="1400" height="620" fill="url(#scan)"/>
+<circle cx="1100" cy="275" r="260" fill="#1f7fff" opacity=".08" filter="url(#blur)"/><circle cx="1250" cy="120" r="180" fill="#ff35a8" opacity=".07" filter="url(#blur)"/><circle cx="735" cy="525" r="190" fill="#534cff" opacity=".08" filter="url(#blur)"/>
+<g fill="#bcecff" opacity=".5"><circle cx="48" cy="45" r="2"/><circle cx="210" cy="92" r="1.5"/><circle cx="390" cy="50" r="2"/><circle cx="535" cy="122" r="1"/><circle cx="670" cy="44" r="1.5"/><circle cx="1120" cy="46" r="2"/><circle cx="1330" cy="80" r="1.5"/><circle cx="1360" cy="340" r="2"/><circle cx="730" cy="570" r="1.5"/><circle cx="90" cy="520" r="1"/><circle cx="490" cy="550" r="2"/></g>
+<g font-family="Arial,Helvetica,sans-serif"><text x="62" y="48" fill="#6d8aaa" font-size="13" letter-spacing="4">BORUTOUZUMAKI07</text><text x="1270" y="48" fill="#6d8aaa" font-size="12" text-anchor="end" letter-spacing="3">AI SYSTEMS // 2026</text><line x1="62" y1="64" x2="1338" y2="64" stroke="#4bbdff" stroke-opacity=".16"/></g>
+<g fill="none" stroke="url(#cyanPink)" stroke-linecap="round" filter="url(#glow)"><use href="#vortexPath" stroke-width="4" opacity=".88"><animateTransform attributeName="transform" type="rotate" from="0 950 278" to="360 950 278" dur="14s" repeatCount="indefinite"/></use><circle cx="950" cy="278" r="188" stroke="#35caff" stroke-width="1.5" opacity=".18"><animate attributeName="r" values="170;205;170" dur="4.5s" repeatCount="indefinite"/></circle><circle cx="950" cy="278" r="118" stroke="#ff4ca5" stroke-width="1" opacity=".18"/></g>
+<circle cx="950" cy="278" r="95" fill="url(#orb)" opacity=".7"><animate attributeName="r" values="80;105;80" dur="3s" repeatCount="indefinite"/></circle>
+<g font-family="Arial,Helvetica,sans-serif"><text x="62" y="145" fill="#47cfff" font-size="72" font-weight="900" letter-spacing="3">BORUTO</text><text x="66" y="187" fill="#f2f7ff" font-size="28" font-weight="800" letter-spacing="8">TWO BLUE VORTEX</text><text x="67" y="218" fill="#7598bb" font-size="12" letter-spacing="7">DISCIPLINE  ×  BUILD  ×  EVOLVE</text><rect x="66" y="242" width="520" height="2" fill="url(#cyanPink)"/><text x="66" y="292" fill="#fff" font-size="34" font-weight="800">FULL-STACK × AI/LLM ENGINEER</text><text x="66" y="321" fill="#a7c7e8" font-size="16">Production systems. Intelligent products. Real-world impact.</text>
+<g transform="translate(66 345)"><rect width="118" height="36" rx="18" fill="#071b31" stroke="#29c8ff"/><text x="59" y="23" text-anchor="middle" fill="#c8f4ff" font-size="12" font-weight="700">FULL-STACK</text><rect x="130" width="100" height="36" rx="18" fill="#121536" stroke="#7466ff"/><text x="180" y="23" text-anchor="middle" fill="#dedaff" font-size="12" font-weight="700">AI / LLM</text><rect x="242" width="74" height="36" rx="18" fill="#26112d" stroke="#ff4ca5"/><text x="279" y="23" text-anchor="middle" fill="#ffd6eb" font-size="12" font-weight="700">RAG</text><rect x="328" width="126" height="36" rx="18" fill="#071b31" stroke="#29c8ff"/><text x="391" y="23" text-anchor="middle" fill="#c8f4ff" font-size="12" font-weight="700">AGENTIC AI</text></g>
+<text x="66" y="421" fill="#6585a6" font-size="12" letter-spacing="3">BUILDING PRODUCTION-READY INTELLIGENT APPLICATIONS</text></g>
+<g font-family="Arial,Helvetica,sans-serif"><g transform="translate(66 470)"><rect width="250" height="100" rx="16" fill="#071323" fill-opacity=".82" stroke="#2bc8ff" stroke-opacity=".35"/><text x="20" y="28" fill="#52d3ff" font-size="11" letter-spacing="2">01 // LINKFORGE</text><text x="20" y="54" fill="#fff" font-size="18" font-weight="800">URL SHORTENER</text><text x="20" y="76" fill="#8ba9c8" font-size="11">Kafka • Redis • Postgres • FastAPI</text></g>
+<g transform="translate(334 470)"><rect width="250" height="100" rx="16" fill="#071323" fill-opacity=".82" stroke="#7466ff" stroke-opacity=".42"/><text x="20" y="28" fill="#8e82ff" font-size="11" letter-spacing="2">02 // NEXUS AI</text><text x="20" y="54" fill="#fff" font-size="18" font-weight="800">AI COPILOT</text><text x="20" y="76" fill="#8ba9c8" font-size="11">LangGraph • RAG • MCP • HITL</text></g>
+<g transform="translate(602 470)"><rect width="250" height="100" rx="16" fill="#071323" fill-opacity=".82" stroke="#ff4ca5" stroke-opacity=".42"/><text x="20" y="28" fill="#ff6fb7" font-size="11" letter-spacing="2">03 // AI CIVIC</text><text x="20" y="54" fill="#fff" font-size="18" font-weight="800">ISSUE MONITORING</text><text x="20" y="76" fill="#8ba9c8" font-size="11">Vision • LangGraph • Prefect • Drift</text></g></g>
+<g transform="translate(1100 88)">
+<circle cx="105" cy="220" r="185" fill="none" stroke="#2bc8ff" stroke-width="2" opacity=".16"/><circle cx="105" cy="220" r="150" fill="none" stroke="#ff4ca5" stroke-width="1" opacity=".12" stroke-dasharray="4 12"><animateTransform attributeName="transform" type="rotate" from="0 105 220" to="360 105 220" dur="18s" repeatCount="indefinite"/></circle>
+<path d="M52 255 Q70 207 88 166 L122 166 Q143 208 170 255 L198 430 L5 430 Z" fill="#070d19" stroke="#31caff" stroke-width="2"/><path d="M55 274 Q98 303 151 270" fill="none" stroke="#5d57ff" stroke-width="3" opacity=".65"/>
+<path d="M79 154 L83 185 Q105 201 127 184 L130 154" fill="#dca783"/><path d="M52 77 Q101 44 151 76 L149 138 Q132 174 103 180 Q72 173 57 140Z" fill="#e4ad87" stroke="#101827" stroke-width="2"/>
+<path d="M54 88 L27 45 L66 58 L49 15 L87 49 L94 4 L113 48 L151 17 L139 56 L181 46 L151 91 Q104 68 54 88Z" fill="url(#hair)" stroke="#f4d789" stroke-opacity=".35"/>
+<path d="M53 84 Q103 61 153 82 L149 105 Q102 88 56 106Z" fill="#172233" stroke="#45d3ff" stroke-width="3"/><path d="M90 77 L121 76 L124 99 L87 100Z" fill="#aeb9ca"/><path d="M96 80 L117 80" stroke="#455468" stroke-width="2"/>
+<path d="M112 104 Q132 94 147 104 Q132 117 113 111Z" fill="#57dfff"/><circle cx="132" cy="105" r="4" fill="#07111e"/>
+<path d="M141 115 Q162 132 150 153 M149 128 Q167 138 158 160 M145 151 Q161 166 150 181" fill="none" stroke="#35d2ff" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+<path d="M74 118 Q87 131 96 132" fill="none" stroke="#8b5044" stroke-width="2" opacity=".5"/><path d="M56 258 Q30 304 42 356" fill="none" stroke="#0d1524" stroke-width="31" stroke-linecap="round"/><path d="M153 256 Q183 300 171 355" fill="none" stroke="#0d1524" stroke-width="31" stroke-linecap="round"/>
+<g transform="rotate(-22 170 220)"><rect x="169" y="32" width="10" height="236" rx="5" fill="#e8f6ff" stroke="#8cdfff"/><rect x="157" y="254" width="34" height="10" rx="4" fill="#f5c85c"/><rect x="167" y="264" width="14" height="76" fill="#1b2432"/><path d="M174 32 L183 43 L174 28 L165 43Z" fill="#fff"/></g>
+<circle cx="105" cy="220" r="125" fill="none" stroke="#39cfff" stroke-width="2" opacity=".22"><animate attributeName="r" values="115;145;115" dur="3.2s" repeatCount="indefinite"/></circle></g>
+<g fill="#ff4ca5" opacity=".8"><path d="M625 120q24 7 5 29q-22-2-5-29z"><animateTransform attributeName="transform" type="translate" values="0 0;30 150;-5 300" dur="8s" repeatCount="indefinite"/></path><path d="M870 430q22 6 5 28q-20-2-5-28z"><animateTransform attributeName="transform" type="translate" values="0 0;-25 80;20 150" dur="7s" repeatCount="indefinite"/></path></g>
+<path d="M62 595 H1338" stroke="url(#cyanPink)" stroke-width="2" opacity=".55"/><text x="1338" y="604" text-anchor="end" fill="#5f7d9d" font-family="Arial" font-size="10" letter-spacing="3">DISCIPLINE × BUILD × EVOLVE</text>
+</g></svg>
