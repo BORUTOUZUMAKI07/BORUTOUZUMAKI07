@@ -274,14 +274,8 @@ AI-powered civic intelligence system for **Vadodara Municipal Corporation**, com
 ## 📊 GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/BORUTOUZUMAKI07">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=BORUTOUZUMAKI07&theme=tokyo-night&hide_border=true&area=true&custom_title=Sriram%20GitHub%20Activity" width="100%" alt="GitHub activity graph">
-  </a>
-</p>
-
-<p align="center">
-  <img src="./profile/stats.svg" width="49%" alt="GitHub statistics">
-  <img src="./profile/top-langs.svg" width="49%" alt="Top languages">
+  <img src="https://github-readme-stats.shion.dev/api?username=BORUTOUZUMAKI07&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="49%" alt="GitHub statistics">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=BORUTOUZUMAKI07&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="49%" alt="Top languages">
 </p>
 
 <p align="center">
@@ -293,7 +287,7 @@ AI-powered civic intelligence system for **Vadodara Municipal Corporation**, com
 ## 🐍 Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/output/github-contribution-grid-snake-dark.svg?v=2" width="100%" alt="GitHub contribution snake">
+  <img src="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/output/github-contribution-grid-snake-dark.svg?v=3" width="100%" alt="GitHub contribution graph">
 </p>
 
 ---
