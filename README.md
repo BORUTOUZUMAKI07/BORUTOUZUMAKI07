@@ -237,56 +237,80 @@ I like building systems that go beyond demos: modern frontends, production APIs,
     <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=BORUTOUZUMAKI07&repo=ai-civic-issue-monitoring&theme=tokyonight&hide_border=true" alt="AI Civic Issue Monitoring repository">
   </a>
   <a href="https://url-shortner-peay.vercel.app">
-    <img width="48%" src="https://img.shields.io/badge/LINKFORGE-LIVE%20DEMO-00F7FF?style=for-the-badge&logo=vercel&logoColor=black" alt="LinkForge live demo">
+    <img src="https://img.shields.io/badge/LinkForge-Live%20Demo-00F7FF?style=flat-square&logo=vercel&logoColor=black" alt="LinkForge live demo">
   </a>
 </p>
+
+<table>
+<tr>
+<td width="33%" valign="top">
 
 ### 🔗 LinkForge
 
 Enterprise URL-shortening platform with **multi-tenant workspaces, click analytics, QR codes, webhooks, API keys, team collaboration, and event-driven architecture**.
 
-**Stack:** Next.js • React • TypeScript • FastAPI • SQLAlchemy • PostgreSQL/Neon • MongoDB • Redis • Kafka • Schema Registry • OpenTelemetry • New Relic • Docker • GitHub Actions
+**Stack**  
+Next.js • React • TypeScript • FastAPI • SQLAlchemy • PostgreSQL/Neon • MongoDB • Redis • Kafka • Schema Registry • OpenTelemetry • New Relic • Docker • GitHub Actions
 
 <p align="center">
-  <a href="https://github.com/BORUTOUZUMAKI07/url-shortner">SOURCE</a> ·
-  <a href="https://url-shortner-peay.vercel.app">LIVE FRONTEND</a>
+  <a href="https://github.com/BORUTOUZUMAKI07/url-shortner"><img src="https://img.shields.io/badge/SOURCE-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="LinkForge source"></a>
+  <a href="https://url-shortner-peay.vercel.app"><img src="https://img.shields.io/badge/LIVE-00F7FF?style=flat-square&logo=vercel&logoColor=black" alt="LinkForge live"></a>
 </p>
+
+</td>
+<td width="33%" valign="top">
 
 ### 🧠 Nexus AI Assistant
 
 Production-grade AI copilot built with a **FastAPI + LangGraph backend and Next.js frontend**, including agent orchestration, hybrid RAG, HITL tool approvals, plan mode, memory, organizations/sharing, audio, MCP tool execution, artifacts, admin observability and prompt regression testing.
 
-**Stack:** FastAPI • LangGraph • Next.js • PostgreSQL/pgvector • Qdrant • Redis • Celery • MCP • RAG • Docker • CI/CD
+**Stack**  
+FastAPI • LangGraph • Next.js • PostgreSQL/pgvector • Qdrant • Redis • Celery • MCP • RAG • Docker • CI/CD
 
 <p align="center">
-  <a href="https://github.com/BORUTOUZUMAKI07/nexus-ai-assistant">SOURCE</a>
+  <a href="https://github.com/BORUTOUZUMAKI07/nexus-ai-assistant"><img src="https://img.shields.io/badge/SOURCE-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="Nexus AI Assistant source"></a>
 </p>
+
+</td>
+<td width="33%" valign="top">
 
 ### 🏛️ AI Civic Issue Monitoring
 
 AI-powered civic intelligence system for **Vadodara Municipal Corporation**, combining computer vision for potholes and garbage, issue classification, LangGraph workflows, real-time drift detection, SLA monitoring and a Next.js dashboard.
 
-**Stack:** FastAPI • Next.js • PyTorch • MobileNetV2 • LangGraph • PostgreSQL/pgvector • MongoDB • Redis • Prefect • Docker • DVC • New Relic
+**Stack**  
+FastAPI • Next.js • PyTorch • MobileNetV2 • LangGraph • PostgreSQL/pgvector • MongoDB • Redis • Prefect • Docker • DVC • New Relic
 
 <p align="center">
-  <a href="https://github.com/BORUTOUZUMAKI07/ai-civic-issue-monitoring">SOURCE</a>
+  <a href="https://github.com/BORUTOUZUMAKI07/ai-civic-issue-monitoring"><img src="https://img.shields.io/badge/SOURCE-8A2BE2?style=flat-square&logo=github&logoColor=white" alt="Civic monitoring source"></a>
 </p>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧠 AI Engineering Focus
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agentic%20AI-MCP%20%7C%20A2A-00F7FF?style=for-the-badge" alt="Agentic AI protocols">
-  <img src="https://img.shields.io/badge/RAG-%20Retrieval%20%7C%20Reranking%20%7C%20Evaluation-8A2BE2?style=for-the-badge" alt="RAG">
-  <img src="https://img.shields.io/badge/Production%20AI-Observability%20%7C%20Evaluation%20%7C%20CI%2FCD-FF1493?style=for-the-badge" alt="Production AI">
+  <img src="https://img.shields.io/badge/AGENTIC%20AI-00F7FF?style=for-the-badge" alt="Agentic AI">
+  <img src="https://img.shields.io/badge/MCP%20%2B%20A2A-8A2BE2?style=for-the-badge" alt="MCP and A2A">
+  <img src="https://img.shields.io/badge/RAG-00F7FF?style=for-the-badge" alt="RAG">
+  <img src="https://img.shields.io/badge/PRODUCTION%20AI-8A2BE2?style=for-the-badge" alt="Production AI">
 </p>
 
-> **MCP** → connect agents to tools, resources and context  
-> **A2A** → enable agent-to-agent communication and delegation  
-> **LangGraph** → build stateful, controllable agent workflows  
-> **RAG** → retrieval, reranking, grounding and evaluation  
-> **AI Infra** → observability, evaluation, deployment and reliable production systems
+<p align="center">
+  <b>Tools & Context</b> → <b>Agent Orchestration</b> → <b>Retrieval & Grounding</b> → <b>Evaluation & Observability</b> → <b>Production</b>
+</p>
+
+| 🔌 Protocols | 🧠 Intelligence | ⚙️ Production |
+|---|---|---|
+| **MCP** — tools, resources & context | **RAG** — retrieval, reranking & grounding | **Observability** — traces, metrics & logs |
+| **A2A** — agent-to-agent communication | **LangGraph** — stateful workflows | **Evaluation** — quality & regression testing |
+| **FastMCP** — MCP server development | **HITL** — controlled tool approvals | **Deployment** — Docker, CI/CD & cloud |
+
+> **MCP** connects agents to tools and context • **A2A** enables agent delegation • **LangGraph** provides controllable orchestration • **RAG** grounds model responses • **AI Infra** makes systems observable and deployable
 
 ---
 
