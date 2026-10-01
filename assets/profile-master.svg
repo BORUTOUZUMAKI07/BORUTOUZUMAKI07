@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020611"/><stop offset=".5" stop-color="#061b39"/><stop offset="1" stop-color="#150522"/></linearGradient>
+  <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#20d7ff"/><stop offset=".5" stop-color="#7b61ff"/><stop offset="1" stop-color="#ff42b4"/></linearGradient>
+  <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#19c9ff"/><stop offset="1" stop-color="#6170ff"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#20d7ff" stop-opacity=".45"/><stop offset="1" stop-color="#20d7ff" stop-opacity="0"/></radialGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="b"><feGaussianBlur stdDeviation="25"/></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#71d8ff" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1536" height="1024" fill="url(#bg)"/><rect width="1536" height="1024" fill="url(#grid)"/>
+<circle cx="1090" cy="205" r="320" fill="#187cff" opacity=".12" filter="url(#b)"/><circle cx="1380" cy="650" r="260" fill="#ff2da8" opacity=".09" filter="url(#b)"/>
+<!-- moon / vortex -->
+<circle cx="1050" cy="132" r="112" fill="#b9ddff" opacity=".12"/><circle cx="1050" cy="132" r="92" fill="#d7ecff" opacity=".16"/>
+<g fill="none" stroke="url(#neon)" stroke-linecap="round" filter="url(#g)">
+ <path d="M840 220 C840 92 960 20 1080 65 C1190 105 1220 220 1145 288 C1080 347 965 315 955 226 C948 164 1018 122 1071 153 C1110 176 1104 226 1068 240" stroke-width="8" opacity=".8">
+  <animateTransform attributeName="transform" type="rotate" from="0 1030 205" to="360 1030 205" dur="16s" repeatCount="indefinite"/>
+ </path>
+ <circle cx="1030" cy="205" r="165" stroke-width="2" opacity=".25"><animate attributeName="r" values="150;185;150" dur="5s" repeatCount="indefinite"/></circle>
+</g>
+<!-- distant city -->
+<path d="M0 285 L80 250 120 268 160 220 220 250 275 205 330 252 400 210 455 260 520 228 600 270 680 220 750 255 820 215 900 260 980 205 1050 250 1140 205 1220 250 1310 220 1380 260 1450 230 1536 265 V430 H0Z" fill="#050b19" opacity=".9"/>
+<g fill="#27cfff" opacity=".45"><circle cx="140" cy="300" r="2"/><circle cx="190" cy="280" r="2"/><circle cx="420" cy="300" r="2"/><circle cx="570" cy="290" r="2"/><circle cx="700" cy="315" r="2"/><circle cx="910" cy="290" r="2"/><circle cx="1190" cy="305" r="2"/><circle cx="1370" cy="285" r="2"/></g>
+<!-- header -->
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="55" y="44" fill="#c8edff" font-size="14" letter-spacing="7">BORUTOUZUMAKI07</text><line x1="55" y1="61" x2="470" y2="61" stroke="url(#neon)" stroke-width="2"/>
+<text x="55" y="143" fill="#43cfff" font-size="78" font-weight="900" letter-spacing="2">BORUTO</text>
+<text x="60" y="188" fill="#fff" font-size="34" font-weight="900" letter-spacing="5">TWO BLUE VORTEX</text>
+<text x="62" y="218" fill="#9ab5d4" font-size="14" letter-spacing="8">DISCIPLINE × BUILD × EVOLVE</text>
+<text x="55" y="274" fill="#fff" font-size="34" font-weight="800">Hi, I'm <tspan fill="#35d4ff">Sriram</tspan> ✓</text>
+<text x="58" y="309" fill="#d7e7fa" font-size="20">◉  Full-Stack Developer  |  AI/LLM Engineer</text>
+<rect x="55" y="328" width="535" height="43" rx="9" fill="#071426" stroke="url(#neon)" stroke-width="2"/>
+<text x="75" y="356" fill="#dfeaff" font-size="17">›  Building production-ready AI systems...</text>
+</g>
+<!-- character -->
+<g transform="translate(1100 18)">
+<path d="M65 360 Q125 250 160 150 L220 150 Q270 250 325 360 L350 525 L25 525Z" fill="#050a15" stroke="#23d1ff" stroke-width="3"/>
+<path d="M90 320 Q180 375 280 320" fill="none" stroke="#9d51ff" stroke-width="5" opacity=".55"/>
+<path d="M100 160 Q180 115 255 160 L247 235 Q215 285 178 286 Q135 280 107 235Z" fill="#e3ad89"/>
+<path d="M103 170 L68 105 118 130 103 72 148 122 158 57 184 118 230 75 213 130 270 112 232 171 Q168 145 103 170Z" fill="#dfb568"/>
+<path d="M101 158 Q178 127 252 160 L247 187 Q180 164 106 190Z" fill="#172435" stroke="#48d9ff" stroke-width="3"/>
+<path d="M152 151 L204 150 L208 181 L148 182Z" fill="#aeb8c9"/>
+<path d="M192 184 Q220 168 244 183 Q220 200 193 193Z" fill="#56dcff"/><circle cx="221" cy="184" r="5" fill="#06101c"/>
+<path d="M233 202 Q265 220 248 254 M247 225 Q275 244 258 275 M242 255 Q268 278 249 303" fill="none" stroke="#31d7ff" stroke-width="5" stroke-linecap="round" filter="url(#g)"/>
+<path d="M105 390 Q65 450 80 505 M275 390 Q315 450 298 505" fill="none" stroke="#0c1422" stroke-width="42" stroke-linecap="round"/>
+<g transform="rotate(-21 280 270)"><rect x="275" y="55" width="14" height="320" rx="6" fill="#e7f7ff"/><rect x="258" y="350" width="48" height="13" rx="4" fill="#f5c64f"/><rect x="274" y="363" width="17" height="110" fill="#1b2432"/></g>
+<circle cx="180" cy="285" r="225" fill="none" stroke="#29cfff" stroke-width="2" opacity=".22"><animate attributeName="r" values="210;245;210" dur="3.6s" repeatCount="indefinite"/></circle>
+</g>
+<!-- skill pills -->
+<g font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">
+<g transform="translate(55 395)"><rect width="125" height="38" rx="19" fill="#07182a" stroke="#22d3ff"/><text x="62" y="25" text-anchor="middle" fill="#c7f5ff">Full-Stack</text>
+<rect x="138" width="105" height="38" rx="19" fill="#101531" stroke="#7b63ff"/><text x="190" y="25" text-anchor="middle" fill="#e1dcff">AI/LLM</text>
+<rect x="255" width="78" height="38" rx="19" fill="#24102d" stroke="#ff45b1"/><text x="294" y="25" text-anchor="middle" fill="#ffd9ee">RAG</text>
+<rect x="345" width="122" height="38" rx="19" fill="#07182a" stroke="#22d3ff"/><text x="406" y="25" text-anchor="middle" fill="#c7f5ff">Agentic AI</text>
+<rect x="479" width="95" height="38" rx="19" fill="#101531" stroke="#7b63ff"/><text x="526" y="25" text-anchor="middle" fill="#e1dcff">MLOps</text>
+<rect x="586" width="120" height="38" rx="19" fill="#24102d" stroke="#ff45b1"/><text x="646" y="25" text-anchor="middle" fill="#ffd9ee">Open Source</text></g></g>
+<!-- stats strip -->
+<g transform="translate(820 355)" font-family="Arial,Helvetica,sans-serif">
+<rect width="610" height="105" rx="18" fill="#071426" fill-opacity=".88" stroke="#2ad1ff" stroke-opacity=".45"/>
+<g fill="#53d9ff" font-size="28" font-weight="800"><text x="78" y="50" text-anchor="middle">100+</text><text x="230" y="50" text-anchor="middle">10+</text><text x="382" y="50" text-anchor="middle">★</text><text x="535" y="50" text-anchor="middle">↗</text></g>
+<g fill="#dbeaff" font-size="13"><text x="78" y="74" text-anchor="middle">Commits</text><text x="230" y="74" text-anchor="middle">Projects</text><text x="382" y="74" text-anchor="middle">Open Source</text><text x="535" y="74" text-anchor="middle">Always Learning</text></g>
+</g>
+<!-- sections -->
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="45" y="500" fill="#fff" font-size="25" font-weight="800">✦  About Me</text><line x1="195" y1="493" x2="455" y2="493" stroke="url(#neon)" stroke-width="2"/>
+<text x="485" y="500" fill="#fff" font-size="25" font-weight="800">🚀  Featured Projects</text><line x1="740" y1="493" x2="1490" y2="493" stroke="url(#neon)" stroke-width="2"/>
+<g fill="#d6e7fa" font-size="15">
+<text x="45" y="535">🚀  I'm building full-stack applications powered by AI/LLMs.</text><text x="45" y="562">🤝  Open to Full-Stack, AI/LLM and Open Source collaboration.</text><text x="45" y="589">📚  Advanced AI engineering, Agentic AI, RAG and scalable systems.</text><text x="45" y="616">💬  React • Next.js • TypeScript • Python • FastAPI • LLMs • RAG</text><text x="45" y="643">⚡  Turning AI ideas into production-ready applications.</text>
+</g>
+<!-- project cards -->
+<g>
+<g transform="translate(475 515)"><rect width="330" height="185" rx="15" fill="#071426" fill-opacity=".9" stroke="#22d3ff"/><text x="20" y="32" fill="#4edcff" font-size="13" letter-spacing="2">01 // LINKFORGE</text><text x="20" y="62" fill="#fff" font-size="22" font-weight="800">URL Shortener</text><text x="20" y="88" fill="#9eb8d4" font-size="13">Scalable URL platform with analytics,</text><text x="20" y="107" fill="#9eb8d4" font-size="13">authentication, QR codes and events.</text><g fill="#d8edff" font-size="11"><text x="20" y="139">Next.js</text><text x="95" y="139">FastAPI</text><text x="170" y="139">PostgreSQL</text><text x="20" y="160">Redis</text><text x="75" y="160">Kafka</text><text x="130" y="160">Docker</text></g></g>
+<g transform="translate(830 515)"><rect width="330" height="185" rx="15" fill="#071426" fill-opacity=".9" stroke="#9a61ff"/><text x="20" y="32" fill="#b28aff" font-size="13" letter-spacing="2">02 // NEXUS AI</text><text x="20" y="62" fill="#fff" font-size="22" font-weight="800">Nexus AI Assistant</text><text x="20" y="88" fill="#9eb8d4" font-size="13">Agentic AI copilot with RAG, memory,</text><text x="20" y="107" fill="#9eb8d4" font-size="13">MCP tools and human-in-the-loop.</text><g fill="#d8edff" font-size="11"><text x="20" y="139">LangGraph</text><text x="100" y="139">RAG</text><text x="145" y="139">Qdrant</text><text x="20" y="160">FastAPI</text><text x="85" y="160">React</text><text x="140" y="160">PostgreSQL</text></g></g>
+<g transform="translate(1185 515)"><rect width="330" height="185" rx="15" fill="#071426" fill-opacity=".9" stroke="#29d8ff"/><text x="20" y="32" fill="#57e0ff" font-size="13" letter-spacing="2">03 // AI CIVIC</text><text x="20" y="62" fill="#fff" font-size="22" font-weight="800">AI Civic Monitoring</text><text x="20" y="88" fill="#9eb8d4" font-size="13">Computer vision and agentic workflows</text><text x="20" y="107" fill="#9eb8d4" font-size="13">for real-world civic issue detection.</text><g fill="#d8edff" font-size="11"><text x="20" y="139">React</text><text x="70" y="139">FastAPI</text><text x="140" y="139">PyTorch</text><text x="20" y="160">LangGraph</text><text x="100" y="160">Prefect</text><text x="165" y="160">Docker</text></g></g></g>
+<!-- bottom left tech stack -->
+<text x="45" y="745" fill="#fff" font-size="25" font-weight="800">⚙  Tech Stack</text><line x1="190" y1="738" x2="680" y2="738" stroke="url(#neon)" stroke-width="2"/>
+<g font-size="13" font-family="Arial,Helvetica,sans-serif">
+<g fill="#7fe6ff"><text x="45" y="775">Frontend</text><text x="45" y="815">Backend</text><text x="45" y="855">AI / LLM</text><text x="45" y="895">Data &amp; DB</text><text x="45" y="935">DevOps / MLOps</text><text x="45" y="975">Tools</text></g>
+<g fill="#dcecff" font-size="15"><text x="150" y="775">React  •  Next.js  •  TypeScript  •  JavaScript  •  HTML  •  CSS  •  Tailwind</text><text x="150" y="815">Python  •  FastAPI  •  Django  •  Flask  •  Node.js  •  Celery</text><text x="150" y="855">LangChain  •  LangGraph  •  Hugging Face  •  PyTorch  •  RAG  •  Qdrant</text><text x="150" y="895">PostgreSQL  •  MongoDB  •  Redis  •  MySQL  •  pgvector</text><text x="150" y="935">Docker  •  GitHub Actions  •  DVC  •  MLflow  •  Prefect  •  OpenTelemetry</text><text x="150" y="975">Git  •  GitHub  •  Postman  •  Vercel  •  Render  •  AWS</text></g></g>
+<!-- stats bottom right -->
+<text x="760" y="745" fill="#fff" font-size="25" font-weight="800">▥  GitHub Stats</text><line x1="930" y1="738" x2="1490" y2="738" stroke="url(#neon)" stroke-width="2"/>
+<g transform="translate(760 765)">
+<rect width="730" height="170" rx="16" fill="#071426" fill-opacity=".88" stroke="#2ad1ff" stroke-opacity=".45"/>
+<g fill="#52d9ff" font-size="12"><text x="25" y="35">Total Contributions</text><text x="205" y="35">Current Streak</text><text x="385" y="35">Projects</text><text x="555" y="35">Top Languages</text></g>
+<g fill="#fff" font-size="24" font-weight="800"><text x="25" y="67">1000+</text><text x="205" y="67">30+</text><text x="385" y="67">10+</text></g>
+<g fill="#9fb9d5" font-size="12"><text x="25" y="92">Commits • PRs • Issues</text><text x="205" y="92">Always building</text><text x="385" y="92">Public projects</text><text x="555" y="92">Python 45%</text><text x="555" y="118">TypeScript 25%</text><text x="555" y="144">JavaScript 15%</text></g>
+<g fill="url(#blue)"><rect x="655" y="85" width="115" height="8" rx="4"/><rect x="655" y="111" width="78" height="8" rx="4"/><rect x="655" y="137" width="55" height="8" rx="4"/></g>
+</g>
+<text x="760" y="970" fill="#fff" font-size="22" font-weight="800">🌐 Connect With Me</text><g transform="translate(950 945)"><rect width="125" height="34" rx="17" fill="#0a1730" stroke="#28cfff"/><text x="62" y="22" text-anchor="middle" fill="#d8efff" font-size="13">LinkedIn</text><rect x="140" width="105" height="34" rx="17" fill="#0a1730" stroke="#7465ff"/><text x="192" y="22" text-anchor="middle" fill="#d8efff" font-size="13">GitHub</text><rect x="260" width="120" height="34" rx="17" fill="#0a1730" stroke="#ff4aaa"/><text x="320" y="22" text-anchor="middle" fill="#d8efff" font-size="13">Portfolio</text></g>
+</g>
+<!-- petals -->
+<g fill="#ff4aaa" opacity=".85"><path d="M730 250q22 5 4 28q-20-3-4-28z"><animateTransform attributeName="transform" type="translate" values="0 0;35 100;-10 230" dur="7s" repeatCount="indefinite"/></path><path d="M420 450q22 5 4 28q-20-3-4-28z"><animateTransform attributeName="transform" type="translate" values="0 0;-25 100;20 220" dur="8s" repeatCount="indefinite"/></path><path d="M1450 700q22 5 4 28q-20-3-4-28z"><animateTransform attributeName="transform" type="translate" values="0 0;-35 100;0 220" dur="6s" repeatCount="indefinite"/></path></g>
+<text x="1490" y="1000" text-anchor="end" fill="#6986a5" font-family="Arial" font-size="11" letter-spacing="4">DISCIPLINE × BUILD × EVOLVE</text>
+</svg>
