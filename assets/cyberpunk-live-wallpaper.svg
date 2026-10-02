@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0" stop-color="#050713"/><stop offset=".5" stop-color="#10102a"/><stop offset="1" stop-color="#050713"/>
+    <animate attributeName="x1" values="0;1;0" dur="10s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop stop-color="#00f7ff" stop-opacity=".7"/><stop offset="1" stop-color="#00f7ff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2">
+    <stop stop-color="#8a2be2" stop-opacity=".65"/><stop offset="1" stop-color="#8a2be2" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#00f7ff" stroke-opacity=".08"/>
+  </pattern>
+</defs>
+<rect width="900" height="220" rx="18" fill="url(#bg)"/>
+<ellipse cx="120" cy="80" rx="240" ry="130" fill="url(#glow)">
+  <animate attributeName="cx" values="120;280;120" dur="8s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="790" cy="150" rx="250" ry="140" fill="url(#glow2)">
+  <animate attributeName="cx" values="790;650;790" dur="9s" repeatCount="indefinite"/>
+</ellipse>
+<rect width="900" height="220" fill="url(#grid)">
+  <animateTransform attributeName="transform" type="translate" values="0 0;36 36;0 0" dur="7s" repeatCount="indefinite"/>
+</rect>
+<g fill="none" stroke-linecap="round">
+  <path d="M-40 180 C170 30 300 260 520 100 S760 20 940 130" stroke="#00f7ff" stroke-opacity=".42" stroke-width="2">
+    <animate attributeName="stroke-dasharray" values="2 18;18 2;2 18" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="0;-80;0" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M-30 205 C190 70 330 250 540 120 S770 55 930 155" stroke="#8a2be2" stroke-opacity=".48" stroke-width="3">
+    <animate attributeName="stroke-dashoffset" values="0;120;0" dur="4s" repeatCount="indefinite"/>
+  </path>
+</g>
+<g fill="#00f7ff">
+  <circle cx="90" cy="40" r="2"><animate attributeName="cy" values="40;185;40" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="240" cy="180" r="1.8"><animate attributeName="cx" values="240;420;240" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="510" cy="45" r="2"><animate attributeName="cy" values="45;175;45" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="720" cy="170" r="1.7"><animate attributeName="cx" values="720;560;720" dur="5.5s" repeatCount="indefinite"/></circle>
+</g>
+<g fill="#fff" font-family="monospace" text-anchor="middle">
+  <text x="450" y="104" font-size="30" font-weight="700" letter-spacing="7">BUILD • EVOLVE • SHIP</text>
+  <text x="450" y="132" font-size="11" fill="#b9c8ff" letter-spacing="3">AI SYSTEMS • AGENTS • MCP • A2A • RAG • MLOPS</text>
+</g>
+<rect x="1" y="1" width="898" height="218" rx="18" fill="none" stroke="#00f7ff" stroke-opacity=".25"/>
+</svg>
