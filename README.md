@@ -59,6 +59,10 @@ I like building systems that go beyond demos: modern frontends, production APIs,
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BORUTOUZUMAKI07/BORUTOUZUMAKI07/main/assets/cyberpunk-live-wallpaper.svg?v=1" width="100%" alt="Animated cyberpunk engineering wallpaper">
+</p>
+
 ## 💻 Tech Stack:
 
 <!-- ==================== FRONTEND ==================== -->
