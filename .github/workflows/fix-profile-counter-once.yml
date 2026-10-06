@@ -1,0 +1,40 @@
+name: Fix Profile Counter Once
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor == 'BORUTOUZUMAKI07'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore matching profile-view badge
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          s = p.read_text()
+          old = 'https://count.getloli.com/get/@BORUTOUZUMAKI07.github.readme?theme=normal-1'
+          new = 'https://komarev.com/ghpvc/?username=BORUTOUZUMAKI07&label=PROFILE+VIEWS&color=00F7FF&style=for-the-badge'
+          s = s.replace(old, new)
+          p.write_text(s)
+          PY
+
+      - name: Commit README fix and remove one-time workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/fix-profile-counter-once.yml
+          git add README.md .github/workflows/fix-profile-counter-once.yml
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "fix: restore neon profile views badge"
+          git push
