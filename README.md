@@ -19,7 +19,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BORUTOUZUMAKI07&label=PROFILE+VIEWS&color=00F7FF&style=for-the-badge" alt="Profile views">
   <img src="https://img.shields.io/github/followers/BORUTOUZUMAKI07?style=for-the-badge&label=FOLLOWERS&color=8A2BE2" alt="Followers">
   <img src="https://img.shields.io/github/stars/BORUTOUZUMAKI07?style=for-the-badge&label=STARS&color=00F7FF" alt="Stars">
 </p>
